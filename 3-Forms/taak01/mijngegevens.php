@@ -1,6 +1,9 @@
 <?php
-$student  = array("voornaam"    => "Piet","achternaam"  => "Pietersen", "klas"        => "9G","Leeftijd"    => 18, "Adres"  => "Kalverstraat 11","Woonplaats" => "Amsterdam");
-  foreach ($student as $student){
-      echo "$student<br>";
-  }
+echo $_POST['voornaam'] . "<br>" 
+echo $_POST['achternaam'] . "<br>";
+echo $_POST['klas'] . "<br>";
+echo $_POST['leeftijd'] . "<br>";
+echo $_POST['adres'] . "<br>";
+echo $_POST['plaatsnaam'] . "<br>";
+
 ?>
