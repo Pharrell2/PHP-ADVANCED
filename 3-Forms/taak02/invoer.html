@@ -9,26 +9,33 @@
 </head>
 <body>
 
-    <form name= "student" action="mijngegevens.php">
+    <form name= "student" action="mijngegevens.php"
      method="post">
 
         <label>Voornaam:</label>
-        <input type="text" name= "voornaam">
+        <input type="text" name= "voornaam"><br>
         <label>Achternaam:</label>
-        <input type="text" name= "achternaam">
+        <input type="text" name= "achternaam"><br>
         <label>klas:</label>
-        <input type="text" name= "klas">
+        <input type="text" name= "klas"><br>
         <label>leeftijd:</label>
-        <input type="text" name= "leeftijd">
+        <input type="text" name= "leeftijd"><br>
         <label>Adres:</label>
-        <input type="text" name= "adres">
+        <input type="text" name= "adres"><br>
         <label>Plaatsnaam:</label>
-        <input type="text" name= "plaatsnaam">
-    <button>verzend</button>
-    <input type= "radio" id="Man" name= "geslacht" value="man">Man</input>
-    <input type= "radio" id="Vrouw" name="geslacht" value="vrouw">Vrouw</input>
+        <input type="text" name= "plaatsnaam"><br>
+    <input type= "radio" id="Man" name= "geslacht" value="man">Man</input><br>
+    <input type= "radio" id="Vrouw" name="geslacht" value="vrouw">Vrouw</input><br>
+    <select id="kleur" name="kleur"><br>
+    <br>
+        <?php 
+        $lievelingskleuren = ['purple' , 'red' , 'black' , 'brown'];
+        foreach($lievelingskleuren as $lievelingskleur){
+             echo "<option value= '$lievelingskleur' selected>$lievelingskleur</option>";
+        }
+        ?>
     <br>       
-
+    <input type="submit" name="submit"value="verstuur">
     </form>   
 </body>
 </html>

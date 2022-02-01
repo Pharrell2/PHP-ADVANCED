@@ -8,11 +8,10 @@
 </head>
 <body>
 <?php
+ echo "<ul>";
 $dagen= array ("maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag");
-
-$ulist .= "<ul>";
 foreach ($dagen as $dagen){
-echo    $uList .= "<li>$dagen</li>";
+echo  "<li> $dagen <br> </li>";
 }
-$uList .= "</ul>";
+echo "</ul>";
 ?>

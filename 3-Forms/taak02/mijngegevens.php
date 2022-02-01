@@ -1,6 +1,8 @@
 <?php
-$student  = array("voornaam"    => "Piet","achternaam"  => "Pietersen", "klas"        => "9G","Leeftijd"    => 18, "Adres"  => "Kalverstraat 11","Woonplaats" => "Amsterdam");
-  foreach ($student as $student){
-      echo "$student<br>";
-  }
+echo var_dump($_POST);
+foreach($_POST as $key => $value){
+    echo " De value is: " . $value . "<br>"; 
+}
+
+echo "<body style='background-color:".$_POST['kleur']."'>";
 ?>
