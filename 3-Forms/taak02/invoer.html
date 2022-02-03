@@ -9,23 +9,17 @@
 </head>
 <body>
 
-    <form name= "student" action="mijngegevens.php"
-     method="post">
+    <form name= "form" method="GET" action="mijngegevens.php">
 
-        <label>Voornaam:</label>
-        <input type="text" name= "voornaam"><br>
-        <label>Achternaam:</label>
-        <input type="text" name= "achternaam"><br>
-        <label>klas:</label>
-        <input type="text" name= "klas"><br>
-        <label>leeftijd:</label>
-        <input type="text" name= "leeftijd"><br>
-        <label>Adres:</label>
-        <input type="text" name= "adres"><br>
-        <label>Plaatsnaam:</label>
-        <input type="text" name= "plaatsnaam"><br>
-    <input type= "radio" id="Man" name= "geslacht" value="man">Man</input><br>
-    <input type= "radio" id="Vrouw" name="geslacht" value="vrouw">Vrouw</input><br>
+        
+        <p>voornaam: <input type name= "voornaam"></p>
+        <p>achternaam:<input type name= "achternaam"></p>
+        <p>klas:<input type name= "klas"></p>
+        <p>leeftijd:<input type name= "leeftijd"></p>
+        <p>adres:<input type name= "adres"></p>
+        plaatsnaam:<input type name= "plaatsnaam"></p>
+    <input type= "radio" id="Man" name= "geslacht" value="man">Man</input>
+    <input type= "radio" id="Vrouw" name="geslacht" value="vrouw">Vrouw</input>
     <select id="kleur" name="kleur"><br>
     <br>
         <?php 
