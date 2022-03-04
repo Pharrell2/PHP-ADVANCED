@@ -34,9 +34,8 @@
         <p>hobbies:<input type name= "hobbies"></p>
         <p>sport:<input type name= "sport"></p>
         <p>tabel-border dikte:<input type name= "border-dikte"></p>
-        <p>padding:<input type name= "padding"></p>
         <input type="submit" name="submit"value="verstuur">
     </form>
-
+  
 </body>
 </html>

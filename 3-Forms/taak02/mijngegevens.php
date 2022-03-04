@@ -1,12 +1,12 @@
 <?php
-echo $_GET ['voornaam'] . "<br>";
-echo $_GET ['achternaam'] . "<br>"; 
-echo $_GET ['klas'] . "<br>";
-echo $_GET ['leeftijd'] . "<br>";
-echo $_GET ['adres'] . "<br>";
-echo $_GET ['plaatsnaam'] . "<br>";
+echo $_POST ['voornaam'] . "<br>";
+echo $_POST ['achternaam'] . "<br>"; 
+echo $_POST ['klas'] . "<br>";
+echo $_POST ['leeftijd'] . "<br>";
+echo $_POST ['adres'] . "<br>";
+echo $_POST ['plaatsnaam'] . "<br>";
 
-echo "<body style='background-color:".$_GET['kleur'];
+echo "<body style='background-color:".$_POST['kleur'];
 
 ?>
 

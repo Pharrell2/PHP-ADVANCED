@@ -12,10 +12,10 @@ echo "<body style='background-color:".$_POST['achtergrondkleur']."'>";
 ?>
 
 <?php
-    function maakRij($kg, $RT){
+    function maakRij($kleur, $backcolor){
         echo "<tr>";
-        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$kg</td>";
-        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$RT</td>";
+        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$kleur</td>";
+        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$backcolor</td>";
         echo "</tr>";
     }
 
